@@ -1,0 +1,4 @@
+2022-10-18 13:20:43,744 :: Sistema_backup.py :: INFO  :: 18 :: Informação do tamanho do arquivo 
+2022-10-18 13:20:43,803 :: Sistema_backup.py :: INFO  :: 19 :: Útima modificação do arquivo
+2022-10-18 13:20:43,803 :: Sistema_backup.py :: DEBUG  :: 20 :: Removendo todos os arquivos com data de criação superior a 3 dias
+2022-10-18 13:20:43,803 :: Sistema_backup.py :: INFO  :: 21 :: Gero copia dos arquivos para backupsTo
