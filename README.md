@@ -16,7 +16,7 @@ Iae pessoal esse projeto foi desenvolvido para um processo seletivo para uma emp
 
 ▶️Vou mostrar como construir esse script, bora lá 👨‍💻
 
-Primeiro passei os `imports` para esse projeto, e passei as variáveis com os caminhos das pastas, **presta atenção se você vai usar esse projeto, altere para o diretório das suas pastas**.
+Primeiro passei os `imports` para esse projeto, e passei as variáveis com os caminhos das pastas, **presta atenção se você vai usar esse projeto, altere para os diretórios das suas pastas que vai usar**.
 ~~~Python
 
 import os,time,glob
