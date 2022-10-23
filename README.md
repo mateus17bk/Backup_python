@@ -1,4 +1,5 @@
-﻿# Projeto Backup com python
+![Screenshot_4](https://user-images.githubusercontent.com/21342727/197424567-5cc16a1c-ad82-4ff9-9871-fcd185a74978.png)
+
  
 Iae pessoal esse projeto foi desenvolvido para um processo seletivo para uma empresa, e eles me passaram esse desafio de construir um script de backup, e me deram a liberdade de construir com liguem que eu quiser, eu que não sou bobo nem nada, fui logo de `Python`🐍
 
