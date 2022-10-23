@@ -16,7 +16,7 @@ Iae pessoal esse projeto foi desenvolvido para um processo seletivo para uma emp
 
 ▶️Vou mostrar como construir esse script, bora lá 👨‍💻
 
-Primeiro passei os `imports` para esse projeto, e passei as variáveis com os caminhos das pastas, **presta atenção se você vai usar esse projeto, altere para os diretórios das suas pastas que vai usar**.
+Primeiro passei os `imports` para esse projeto, e passei as variáveis com os caminhos das pastas, **presta atenção se você vai usar esse projeto, altere para os diretórios das suas pastas que vai usar**. 
 ~~~Python
 
 import os,time,glob
@@ -62,7 +62,7 @@ def info_tamanho(in_tamanho):
 ~~~
 
 
-Aqui é a magia do script onde crei `duas array` para ser percorrida dentro do `for` fazer as condicionais de remover todos os arquivos com data de criação superior a 3 dias.
+Aqui é a magia do script onde criei `duas array` para ser percorrida dentro do `for` fazer as condicionais de remover todos os arquivos com data de criação superior a 3 dias.
 ~~~Python
 # Metodo para apagar os arquivos com data de criação superior a 3 dias
 now = time.time()
