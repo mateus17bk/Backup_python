@@ -14,7 +14,6 @@ import logging, shutil
 path = "C:\\Users\\Desenvolvimento\\Desktop\\home\\backupsFrom/*.*"
 pathremove = "C:\\Users\\Desenvolvimento\\Desktop\\home\\backupsFrom"
 mover = "C:\\Users\\Desenvolvimento\\Desktop\\home\\backupsTo"
-
 ~~~
 
 
@@ -34,4 +33,18 @@ logging.info("Informação do tamanho do arquivo ")
 logging.info("Útima modificação do arquivo")
 logging.debug("Removendo todos os arquivos com data de criação superior a 3 dias")
 logging.info("Gero copia dos arquivos para backupsTo")
+~~~
+
+
+Depois criei duas função um  vai verificar o tempo do arquivo, verificando a última modificação e quando foi criada, e a outra mostar o tamanho do arquivo em megabytes.
+~~~Python
+# Função da verificação do tempo do arquivo
+def info_tempo(in_tempo):
+    print("Útima modificação: %s" % time.ctime(os.path.getmtime(in_tempo)))
+    print("Criado: %s" % time.ctime(os.path.getctime(in_tempo)))
+
+# Função da verificação do tamanho do arquivo
+def info_tamanho(in_tamanho):
+    tamanho = os.stat(in_tamanho)
+    print("Tamanho do arquivio :", (round (tamanho.st_size / (1024*1024),3)),"Mb")
 ~~~
