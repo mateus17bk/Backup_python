@@ -12,7 +12,7 @@ Iae pessoal esse projeto foi desenvolvido para um processo seletivo para uma emp
 + Copiar todos os arquivos os arquivos com data de criação menor ou igual a 3 (três) dias em homevalcann/backupsTo;
 + Salvar o resultado no arquivo backupsTo.log em /home/valcann/.
 
-> Se você usa Windows recomendo usar o 🗂**BulkFileChanger** para alterar as datas dos arquivos e assim você conseguir observar que o script funciona. 
+> Se você usa Windows recomendo usar o 🗂**BulkFileChanger** para alterar as datas dos arquivos e assim você conseguir observar que o script funcionar. 
 
 
 ▶️Vou mostrar como construir esse script, bora lá 👨‍💻
